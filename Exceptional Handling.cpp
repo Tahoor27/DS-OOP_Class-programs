@@ -1,3 +1,5 @@
+// Date: 22-November-2018
+//if the subject marks are less than 0 or more than 100 give an exception
 #include <iostream>
 #include <fstream>
 using namespace std;
