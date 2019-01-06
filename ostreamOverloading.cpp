@@ -1,4 +1,5 @@
 #include<iostream>
+#include <string>
 using namespace std;
 
 class test
@@ -6,7 +7,7 @@ class test
 public:
 	test()
 	{
-		name = {"NULL"}; 
+		name = "NULL"; 
 		ID = 0; 
 	}
 
@@ -20,12 +21,12 @@ public:
 	{
 		cout << "please enter your name and age" << endl; 
 		input>> p.name >> p.ID; 
-		return input; 
+		return input;
 	}
 
 		
 private:
-	char name[40]; 
+	string name; 
 	int ID; 
 		
 };
